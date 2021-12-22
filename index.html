@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <title>Player Vs Player</title>
+    <style>
+    
+      .winner {
+        color: green;
+      }
+        form {
+        display: inline;
+        }
+      
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Player Vs Player</h1>
+      <p>Wining score:<span class="winScore">10</span></p>
+      <p>
+        Player 1:<span class="p1Score">10</span>
+        Player 2:<span class="p2Score">20</span>
+      </p>
+      <form>
+       <input type="number" id="input"/>
+       <button>submit</button>
+      </form>
+      <button class="p1Btn">Player1</button>
+      <button class="p2Btn">Player2</button>
+      <button class="resetBtn">Reset</button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
